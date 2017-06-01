@@ -1,0 +1,22 @@
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: century gothic; }
+
+hr {
+  margin-bottom: 10px; }
+
+ul li {
+  font-family: arial;
+  font-size: 17.2px;
+  list-style-type: square;
+  line-height: 2.3; }
+
+.inner_list ul li {
+  list-style-type: lower-alpha; }
+
+.regulation {
+  text-align: justify; }
+
+/*# sourceMappingURL=regulation.css.map */

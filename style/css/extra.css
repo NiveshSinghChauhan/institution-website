@@ -1,0 +1,36 @@
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: century gothic; }
+
+.card {
+  width: 760px;
+  margin: 0 auto;
+  margin-top: 130px;
+  box-shadow: 10px 10px 40px #888888;
+  margin-bottom: 45px; }
+  .card img {
+    width: 760px; }
+
+.card-text {
+  padding: 30px; }
+  .card-text hr {
+    width: 480px;
+    margin: 0 auto; }
+  .card-text p {
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: arial;
+    line-height: 2.3; }
+  .card-text strong {
+    color: grey;
+    text-align: center;
+    text-shadow: 2px 1px lightgrey;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: century gothic;
+    font-size: 20px; }
+
+/*# sourceMappingURL=extra.css.map */

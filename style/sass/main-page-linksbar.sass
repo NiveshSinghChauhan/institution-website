@@ -1,0 +1,77 @@
+/*================linksbar styling=========================*\
+.linksbar
+  width: 100%
+  z-index: 2
+  position: absolute
+  height: 40px
+  top: 310px
+  font:
+    family: Agency FB
+  text:
+    align: center
+  background: #FEFEFECC
+  .sep
+    font-size: 20px
+    letter-spacing: 1px
+    color: black
+    position: relative
+    // top: -6px
+    //padding: 14px 16px
+    text-decoration: none
+    display: inline-block
+    // font-size: 14px
+    padding: 11px 20px 2px 20px
+    &:hover
+      border:
+        bottom: 3px solid black
+      color: #fff
+/* DROPDOWN STYLE*/
+.dropdown
+  display: inline-block
+  position: relative
+  // top: -6px
+  z-index: 2
+  &:hover
+    .dropdown-content
+      display: block
+    .dropbtn
+      color: white
+.dropdown
+  .dropbtn
+    font:
+      family: Agency FB
+      size: 20px
+    letter-spacing: 1px
+    border: none
+    outline: none
+    color: black
+    padding: 9px 16px 2px 16px
+    background-color: inherit
+
+  &:hover
+    border:
+      bottom: 3px solid black
+.dropdown-content
+  display: none
+  margin:
+    top: 3px
+  position: absolute
+  background-color: #f9f9f999
+  min-width: 160px
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+  z-index: 500
+  a
+    float: none
+    color: #000009
+    padding: 12px 16px
+    text-decoration: none
+    display: block
+    z-index: 500
+    text:
+      align: left
+    font:
+      size: 20px
+    &:hover
+      color: #242020
+      font-weight: bold
+      background-color: #B7B7B74D

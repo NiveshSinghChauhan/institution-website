@@ -1,0 +1,392 @@
+.title
+  h2
+
+    margin:
+      top: 140px
+      bottom: 10px
+    font:
+      family: century gothic
+      size: 40px
+  p
+    font:
+      family: arial
+    margin:
+      bottom: 30px
+.intro
+  p
+    text:
+      align: left
+    font:
+      family: arial
+    line:
+      height: 2.3
+  strong
+    text:
+      align: center
+    display: block
+    padding:
+      top: 20px
+      bottom: 20px
+    font:
+      family: century gothic
+  span
+    font:
+      weight: bold
+.accordian
+  background:
+    color: #f2f2f2
+  margin:
+    top: 100px
+  border:
+    radius: 5px
+  display: flex
+  padding: 20px
+  .cord
+    width: 300px
+    padding:
+      left: 5px
+      right: 5px
+    p
+      text-align: center
+    strong
+      text-align: center
+      font-family: league spartan
+.accordian-2
+  border:
+    radius: 5px
+  display: flex
+  flex-direction: column
+  background-color: burlywood
+  margin:
+    top: 100px
+  .cord-2
+    display: flex
+    align-items: center
+    padding: 10px
+  .cord-2-1
+    strong
+      color: darken(sienna, 20%)
+      font:
+        size: 45px
+      transform: rotate(-90deg)
+      width: 200px
+    p
+      background-color: rgba(255, 250, 240, .7)
+      padding: 10px
+      text-align: center
+      color: darken(saddlebrown, 10%)
+      border:
+        radius: 5px
+.cord-2-2
+  display: flex
+  flex-direction: column
+  h2
+    text-align: left
+    font:
+      family: century gothic
+      size: 35px
+    margin:
+      top: 100px
+.accordian-3
+  display: flex
+  flex-direction: column
+  align-items: center
+  color: floralwhite
+  border:
+    radius: 5px
+  background:
+    image: url(../../images/board.jpg)
+    size: 102% 103%
+    position: -10px -8px
+    repeat: no repeat
+  margin:
+    top: 100px
+    bottom: 50px
+  .cord-title
+    padding:
+      top: 50px
+    p
+      font:
+        size: 23px
+        family: calibri
+    strong
+      font:
+        size: 40px
+  .card-footer
+    padding: 20px
+    height: auto
+    width: 1000px
+    margin:
+      top: 50px
+      bottom: 50px
+    p
+      text-align: center
+      line-height: 1
+      font:
+        size: 20px
+        family: calibri
+  .cord-body
+    width: 1130px
+    height: 450px
+    margin:
+      right: -10px
+    position: relative
+.body
+  display: none     //this is for working easily not required in the main design\\
+  font:
+    family: Segoe Script
+  width: 200px
+  p
+    text-align: center
+    line-height: 1.2
+    font:
+      family: Urban Sketch
+      size: 25px
+  span
+    font:
+      size: 40px
+      weight: unset
+
+  //  first tradition box styling \\
+  &:first-child
+    display: flex
+    position: absolute
+    flex-direction: column
+    align-items: center
+  //  second tradition box styling \\
+  &:nth-child(2)
+    display: flex
+    position: absolute
+    flex-direction: column
+    align-items: center
+    left: 225px
+  //  third tradition box styling \\
+  &:nth-child(3)
+    display: flex
+    position: absolute
+    flex-direction: column
+    align-items: center
+    left: 447px
+  //  fourth tradition box styling \\
+  &:nth-child(4)
+    display: flex
+    position: absolute
+    flex-direction: column
+    align-items: center
+    left: 670px
+  //  fifth tradition box styling \\
+  &:nth-child(5)
+    display: flex
+    position: absolute
+    flex-direction: column
+    align-items: center
+    left: 905px
+  //  sixth tradition box styling \\
+  &:nth-child(6)
+    display: flex
+    position: absolute
+    flex-direction: column
+    align-items: center
+    top: 190px
+    p
+      width: 148px
+  //  seventh tradition box styling \\
+  &:nth-child(7)
+    display: flex
+    position: absolute
+    flex-direction: column
+    align-items: center
+    top: 160px
+    left: 225px
+    p
+      width: 179px
+
+  //  eighth tradition box styling \\
+  &:nth-child(8)
+    display: flex
+    position: absolute
+    flex-direction: column
+    align-items: center
+    top: 190px
+    left: 447px
+    p
+      width: 170px
+
+  //  nineth tradition box styling \\
+  &:nth-child(9)
+    display: flex
+    position: absolute
+    flex-direction: column
+    align-items: center
+    top: 220px
+    left: 670px
+    p
+      width: 152px
+  //  tenth tradition box styling \\
+  &:nth-child(10)
+    display: flex
+    position: absolute
+    flex-direction: column
+    align-items: center
+    top: 280px
+    left: 905px
+
+// ======== patron styling part =================\\
+
+.patron
+  position: relative
+  display: block
+  height: 617px
+  margin:
+    top: 100px
+  img
+    width: 1200px
+    border-radius: 5px
+    position: absolute
+  .patron-text, .text-container
+    height: 560px
+  .patron-text
+    width: 579px
+    overflow: hidden
+    position: absolute
+    top: 31px
+    right: 50px
+    .text-container
+      width: 600px
+      overflow: auto
+    hr:first-child
+      margin-top: 100px
+    h2
+      padding:
+        top: 20px
+        bottom: 12px
+      color: transparentize(cornsilk, 0.3)
+      font-size: 45px
+      text-align: center
+      font:
+        family: league spartan
+    p
+      text-align: center
+      line-height: 1.5
+      width: 500px
+      margin: 0 auto
+      font:
+        size: 24px
+        family: Agency FB
+      color: transparentize(cornsilk, 0.2)
+      &:first-of-type
+        margin-top: 60px
+      &:last-child
+        margin-bottom: 150px
+
+// ====================crest styling =================\\
+.crest
+
+  background: cornsilk
+  display: flex
+  height: 617px
+  flex-direction: column
+  align-items: center
+  box-sizing: border-box
+  padding: 50px
+  margin:
+    top: 100px
+    bottom: 100px
+  border:
+    radius: 5px
+  box-shadow: 0px 0px 0px 5px transparentize(maroon,0.4) inset
+  img
+    width: 250px
+
+  .crest-text
+    width: 880px
+    overflow: hidden
+    padding-top: 50px
+    .text-container
+      overflow: auto
+      height: 350px
+      width: 900px
+      h2
+        padding:
+          top: 20px
+          bottom: 12px
+        font-size: 18px
+        text-align: center
+        color: transparentize(maroon,0.4)
+        font:
+          family: league spartan
+      p
+        text-align: center
+        line-height: 1.8
+        font:
+          size: 15px
+          family: calibri
+//==============BUBBLE styling====================\\
+
+.bubble
+  display: flex
+  align-items: center
+  justify-content: space-around
+  height: 617px
+  margin:
+    top: 100px
+  .bulloon-block
+    position: absolute
+  .bulloon
+    background:
+      position: center
+      size: 100%
+    width: 400px
+    margin-bottom: 85px
+    height: 400px
+    position: relative
+    cursor: pointer
+    border:
+      radius: 100%
+  p
+    font:
+      size: 20px
+      family: big john
+    letter-spacing: 16px
+    text-align: center
+    width: inherit
+    position: absolute
+    left: 16px
+    bottom: -85px
+  .bubble-1
+    background:
+      image: url(../../images/102.jpg)
+  .bubble-2
+    background:
+      image: url(../../images/101.png)
+.hover-1
+  height: auto
+  width: auto
+  &:hover
+    p
+      bottom: -75px
+.hover-2
+  height: auto
+  width: auto
+  &:hover
+    p
+      bottom: -75px
+.section-case
+  position: relative
+
+  #case-1, #case-2
+    width: 1200px
+    position: absolute
+  #case-1
+    display: none
+  #case-2
+    display: none
+  .exit
+    position: absolute
+    display: none
+    cursor: pointer
+    top: 125px
+    right: 25px
+    font-size: 50px
+    z-index: 2
+    font-family: arial

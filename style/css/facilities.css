@@ -1,0 +1,158 @@
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: century gothic; }
+
+.card {
+  width: 760px;
+  margin: 0 auto;
+  margin-top: 130px;
+  box-shadow: 0px 12px 25px -6px #888888;
+  margin-bottom: 45px; }
+  .card img {
+    width: 760px; }
+
+.card-text {
+  padding: 30px; }
+  .card-text hr {
+    width: 480px;
+    margin: 0 auto; }
+  .card-text p {
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: arial;
+    line-height: 2.3; }
+  .card-text strong {
+    color: grey;
+    text-align: center;
+    text-shadow: 2px 1px lightgrey;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: century gothic;
+    font-size: 20px; }
+
+.fac-textbox {
+  margin-top: 50px; }
+  .fac-textbox .textbox {
+    position: relative;
+    transition: all 500ms ease-in-out;
+    padding: 30px; }
+    .fac-textbox .textbox hr {
+      width: 480px;
+      margin: 0 auto; }
+    .fac-textbox .textbox p {
+      padding-bottom: 20px;
+      text-align: center;
+      font-family: calibri;
+      line-height: 2.3; }
+    .fac-textbox .textbox strong {
+      text-align: center;
+      display: block;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-family: league spartan;
+      font-size: 20px; }
+  .fac-textbox .textgroup {
+    width: 100%;
+    display: none;
+    position: absolute; }
+
+.container {
+  width: 1600px;
+  margin: 0 auto; }
+
+.fac {
+  background: #f2f2f2;
+  height: 524px;
+  position: relative;
+  padding-left: 6px; }
+  .fac img {
+    opacity: 0.8;
+    z-index: 1;
+    transition: opacity 400ms ease-in-out, transform 400ms ease-in-out; }
+  .fac .fac-1 {
+    width: 1560px;
+    left: 20px;
+    position: absolute; }
+  .fac .fac-2 {
+    width: 1560px;
+    top: 354px;
+    left: 20px;
+    position: absolute; }
+    .fac .fac-2 .msg {
+      width: 290px;
+      height: 156px;
+      display: flex;
+      box-sizing: border-box;
+      left: 532px;
+      padding: 20px;
+      position: absolute;
+      justify-content: center;
+      z-index: 1;
+      align-items: center;
+      text-align: center;
+      background: radial-gradient(circle, azure, midnightblue);
+      border-radius: 5px; }
+  .fac .fac-3 {
+    width: 1560px;
+    top: 177px;
+    left: 20px;
+    position: absolute; }
+  .fac .fac-group {
+    position: relative; }
+  .fac .img {
+    height: 156px;
+    position: absolute;
+    border-radius: 5px; }
+  .fac .img-1 {
+    width: 220px;
+    transform-origin: top left; }
+  .fac .img-2 {
+    width: 463px;
+    left: 242px;
+    transform-origin: top; }
+  .fac .img-3 {
+    width: 208px;
+    right: 272px;
+    transform-origin: top; }
+  .fac .img-4 {
+    width: 232px;
+    right: 15px;
+    transform-origin: top right; }
+  .fac .img-5 {
+    width: 656px;
+    right: 15px;
+    transform-origin: right; }
+  .fac .img-6 {
+    width: 242px;
+    transform-origin: bottom left; }
+  .fac .img-7 {
+    width: 328px;
+    left: 728px;
+    transform-origin: top; }
+  .fac .img-8 {
+    width: 292px;
+    left: 571px;
+    transform-origin: center; }
+  .fac .img-9 {
+    width: 546px;
+    transform-origin: left; }
+  .fac .img-10 {
+    width: 258px;
+    right: 15px;
+    transform-origin: bottom right; }
+  .fac .img-11 {
+    width: 241px;
+    left: 266px;
+    transform-origin: bottom; }
+  .fac .img-12 {
+    width: 411px;
+    right: 302px;
+    transform-origin: bottom; }
+
+.hover {
+  transform: scale(2); }
+
+/*# sourceMappingURL=facilities.css.map */

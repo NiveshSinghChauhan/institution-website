@@ -1,0 +1,32 @@
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: century gothic; }
+
+hr {
+  margin-bottom: 10px; }
+
+.login_form {
+  margin-top: 60px; }
+
+.logForm {
+  padding: 0px 363px; }
+  .logForm input {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid lightblue;
+    border-radius: 5px; }
+    .logForm input:first-child, .logForm input:nth-child(2), .logForm input:nth-child(3) {
+      width: 285px; }
+    .logForm input:nth-child(4), .logForm input:nth-child(5) {
+      width: 445px; }
+
+/*# sourceMappingURL=alumni-login.css.map */

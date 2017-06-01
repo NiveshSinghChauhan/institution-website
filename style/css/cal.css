@@ -1,0 +1,53 @@
+* {
+  margin: 0px; }
+
+#demo {
+  text-align: center;
+  width: 300px;
+  font-family: century gothic;
+  font-weight: bold; }
+
+.cal-body {
+  background: lightblue;
+  width: 220px;
+  height: 256px; }
+
+#month {
+  width: 110px;
+  height: 55px;
+  display: inline-block;
+  text-align: center;
+  font-family: arial; }
+  #month span {
+    display: block;
+    padding-top: 13px; }
+
+#date {
+  width: 219px;
+  height: 116px;
+  text-align: center;
+  font-family: century gothic; }
+  #date span {
+    display: block;
+    padding-top: 13px; }
+
+#day {
+  float: right;
+  width: 106px;
+  height: 55px;
+  text-align: center;
+  font-family: century gothic; }
+  #day span {
+    display: block;
+    padding-top: 13px; }
+
+#year {
+  width: 220px;
+  height: 80px;
+  text-align: center;
+  font-family: century gothic; }
+  #year span {
+    display: block;
+    padding-top: 13px; }
+
+/*# sourceMappingURL=cal.css.map */

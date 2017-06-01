@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/css/cal.css">
+    <script src="js/Jquery.js"></script>
+</head>
+
+<body>
+
+    <p id="demo"></p>
+    <p></p>
+    <div class="cal-body">
+      <p id="year"><span>year</span></p>
+      <p id="month"><span>month</span></p>
+      <p id="day"><span>day</span></p>
+      <p id="date"><span>date</span></p>
+
+    </div>
+
+
+    <script type="text/javascript">
+        var len;
+        date = new Date();
+        d = date.getDate();
+        dy = date.getDay();
+        yr = date.getFullYear();
+        m = date.getMonth();
+
+        day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+        month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+
+        mnth = month[m];
+        week = day[dy];
+        document.getElementById('year').innerHTML ="<span>"+yr+"</span> ";
+        document.getElementById('date').innerHTML ="<span>"+d+"</span>" ;
+        document.getElementById('day').innerHTML = "<span>"+week+"</span>";
+        document.getElementById('month').innerHTML = "<span>"+mnth+"</span>";
+        switch (mnth) {
+            case month[0]:
+                len = 31;
+                break;
+            case month[1]:
+                len = 28;
+                break;
+            case month[2]:
+                len = 31;
+                break;
+            case month[3]:
+                len = 30;
+                break;
+            case month[4]:
+                len = 31;
+                break;
+            case month[5]:
+                len = 30;
+                break;
+            case month[6]:
+                len = 31;
+                break;
+            case month[7]:
+                len = 31;
+                break;
+            case month[8]:
+                len = 30;
+                break;
+            case month[9]:
+                len = 31;
+                break;
+            case month[10]:
+                len = 30;
+                break;
+            case month[11]:
+                len = 31;
+                break;
+            default:
+                console.log("invalid date");
+        }
+    </script>
+
+
+
+</body>
+
+</html>

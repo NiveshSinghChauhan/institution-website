@@ -1,0 +1,67 @@
+/*================linksbar styling=========================*\ */
+.linksbar {
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  height: 40px;
+  top: 310px;
+  font-family: Agency FB;
+  text-align: center;
+  background: #FEFEFECC; }
+  .linksbar .sep {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: black;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    padding: 11px 20px 2px 20px; }
+    .linksbar .sep:hover {
+      border-bottom: 3px solid black;
+      color: #fff; }
+
+/* DROPDOWN STYLE */
+.dropdown {
+  display: inline-block;
+  position: relative;
+  z-index: 2; }
+  .dropdown:hover .dropdown-content {
+    display: block; }
+  .dropdown:hover .dropbtn {
+    color: white; }
+
+.dropdown .dropbtn {
+  font-family: Agency FB;
+  font-size: 20px;
+  letter-spacing: 1px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 9px 16px 2px 16px;
+  background-color: inherit; }
+.dropdown:hover {
+  border-bottom: 3px solid black; }
+
+.dropdown-content {
+  display: none;
+  margin-top: 3px;
+  position: absolute;
+  background-color: #f9f9f999;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 500; }
+  .dropdown-content a {
+    float: none;
+    color: #000009;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    z-index: 500;
+    text-align: left;
+    font-size: 20px; }
+    .dropdown-content a:hover {
+      color: #242020;
+      font-weight: bold;
+      background-color: #B7B7B74D; }
+
+/*# sourceMappingURL=main-page-linksbar.css.map */

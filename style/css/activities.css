@@ -1,0 +1,26 @@
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: century gothic; }
+
+hr {
+  margin-bottom: 10px; }
+
+.active p {
+  text-align: justify;
+  font-family: arial;
+  line-height: 2.3; }
+.active strong {
+  text-align: center;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: century gothic;
+  font-size: 20px; }
+.active ul li {
+  font-family: arial;
+  list-style-type: decimal;
+  line-height: 2.3; }
+
+/*# sourceMappingURL=activities.css.map */

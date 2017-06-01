@@ -1,0 +1,31 @@
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: century gothic; }
+
+hr {
+  margin-bottom: 10px; }
+
+.reg_form {
+  margin-top: 60px; }
+
+.regForm input {
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid lightblue;
+  border-radius: 5px; }
+  .regForm input:first-child, .regForm input:nth-child(2), .regForm input:nth-child(3) {
+    width: 285px; }
+  .regForm input:nth-child(4), .regForm input:nth-child(5) {
+    width: 446px; }
+  .regForm input:nth-child(6), .regForm input:nth-child(7), .regForm input:nth-child(8), .regForm input:nth-child(9) {
+    width: 205px; }
+
+/*# sourceMappingURL=alumni.css.map */
